@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@300&display=swap');
+
 
 
 *{
@@ -16,18 +18,149 @@
     font-size: 20px;
     padding: 30px 0;
 }
+.sidebar nav li a{
+text-decoration: none;
+color:black;
+}
 .sidebar{
-    background-color: red;
-    width: 10vw;
+    background-color: rgb(224, 224, 224);
+    width: 400px;
     font-family: 'Fira Sans', sans-serif;
     height: 100vh;
 }
 
 .main{
-    background-color: yellow;
+    /* background-color: yellow; */
     width: 90vw;
 }
 
 .container{
     display: flex;
+}
+
+
+.infoContainer{
+    /* background-color: rgb(237, 67, 252); */
+    height: 60vh;
+    width: 80vw;
+    margin: 80px auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.devInfo{
+    display: flex;
+   justify-content: center;
+    flex-direction:column ;
+    font-family: 'Source Code Pro', monospace;
+}
+
+.hello{
+    font-size: 55px;
+    
+}
+
+.name{
+    font-size: 55px;
+    font-weight: bold;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+.about{
+    font-size: 30px;
+}
+
+.moreabout{
+    font-size: 20px;
+    font-family: 'Fira Sans', sans-serif;
+    margin-top: 22px;
+}
+
+
+.buttons{
+   margin-top: 30px; 
+   
+}
+
+.btn{
+    border-radius: 20px;
+    padding: 9px 14px;
+    color: white;
+    background-color: dodgerblue;
+    font-weight: bold;
+    font-size: 20px;
+    margin: 0 3px;
+    cursor:pointer;
+   
+
+}
+
+.btn-sm{
+   font-size: 16px; 
+   padding: 10px 19px;
+   margin: 12px 0;
+   width: 140px;
+}
+
+
+.btn:hover{
+    background-color: white;
+    color:dodgerblue;
+}
+
+.devPic img{
+    height: 60vh;
+}
+
+.contactform{
+    font-family: 'Fira Sans', sans-serif;
+padding: 0 30px;
+padding-top: 100px;
+}
+.contactform h1{
+    font-family: 'Source Code Pro', monospace;
+    padding:12px 0;
+}
+.contactform  form div{
+    padding: 10px 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.contactform  form div input{
+    width:26vw;
+    border-radius: 5px;
+    margin: 6px 0 0 0;
+    padding: 3px;
+}
+
+#form-check{
+flex-direction: row;
+
+}
+#form-check input{
+    width:24px;
+    margin: 3px 0;
+
+}
+
+#emailHelp{
+    font-size: 11px;
+    color: midnightblue;
+    margin: 0 5px;
+    padding:3px 0 0 0;
+}
+
+.blogItem{
+margin: 20px;
+font-family: 'Fira Sans', sans-serif;
+}
+
+.blogContainer h1{
+    font-family: 'Fira Sans', sans-serif;
+    margin:22px;
+}
+
+.blogItem p{
+    font-family: 'Source Code Pro', monospace;
 }
